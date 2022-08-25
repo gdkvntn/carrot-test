@@ -1,8 +1,8 @@
 import React from "react"
 import * as styles from "./sectionSecond.module.css"
-const img = "../../images/video/video.png"
+
 let arr = Array(12).fill({
-  url: "static/video.png",
+  url: "../images/video.png",
   text: "Как построить эффективный отдел продаж",
 })
 
@@ -62,7 +62,7 @@ export default function SectionSecond() {
                   return (
                     <li key={i} onClick={event => activeVideo(event)}>
                       <span>{i}</span>
-                      <img src={el.url}></img>
+                      <img src={el.url} alt="img"></img>
                       <p>{el.text}</p>
                     </li>
                   )
