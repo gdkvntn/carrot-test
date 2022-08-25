@@ -20,6 +20,7 @@
   align-items: flex-start;
 }
 .footerLeft h3 {
+  font-family: "Stag Sans";
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
@@ -71,6 +72,7 @@
 }
 
 .footerRight h3 {
+  font-family: "Stag Sans";
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
