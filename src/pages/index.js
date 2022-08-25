@@ -3,7 +3,7 @@ import Footer from "../components/footer/Footer"
 import Header from "../components/header/Header"
 import * as styles from "../components/index.module.css"
 import SectionOne from "../components/sectionOne/SectionOne"
-import SectionSecond from "../components/sectionSecond/sectionSecond"
+import SectionSecond from "../components/sectionSecond/SectionSecond"
 
 export default function index() {
   return (
