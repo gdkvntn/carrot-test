@@ -2,7 +2,7 @@ import React from "react"
 import * as styles from "./sectionSecond.module.css"
 import img from "../../images/video.png"
 let arr = Array(12).fill({
-  url: "/icons/video.png",
+  url: img,
   text: "Как построить эффективный отдел продаж",
 })
 
@@ -62,7 +62,7 @@ export default function SectionSecond() {
                   return (
                     <li key={i} onClick={event => activeVideo(event)}>
                       <span>{i}</span>
-                      <img src={img} alt="img"></img>
+                      <img src={el.url} alt="img"></img>
                       <p>{el.text}</p>
                     </li>
                   )
