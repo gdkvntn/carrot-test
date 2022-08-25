@@ -2,7 +2,7 @@ import React from "react"
 import * as styles from "./sectionSecond.module.css"
 
 let arr = Array(12).fill({
-  url: "./icons/video.png",
+  url: "/icons/video.png",
   text: "Как построить эффективный отдел продаж",
 })
 
