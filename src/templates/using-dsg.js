@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const UsingDSG = () => (
-  <Layout>
+  <div>
     <h1>
       Hello from a <b>DSG Page</b>
     </h1>
@@ -15,7 +15,7 @@ const UsingDSG = () => (
       .
     </p>
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  </div>
 )
 
 export default UsingDSG
